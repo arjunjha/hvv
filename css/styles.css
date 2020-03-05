@@ -1,0 +1,116 @@
+body {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 90px;
+  text-align: center;
+font-family: 'Sacramento', cursive;
+}
+
+h2{
+  font-family: 'Mansalva', cursive;
+  font-size: 30px;
+}
+h3{
+  font-family: monospace;
+  font-size: 28px;
+}
+
+p {
+  text-align: center;
+  font-family: 'Grand Hotel', cursive;
+  font-size: 35px;
+
+}
+li{
+  font-family: 'Grand Hotel', cursive;
+  font-size: 30px;
+}
+
+.top-container {
+  background-color: #a8e6cf;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+
+}
+
+.bottom-container {
+
+}
+
+
+  .bird1{
+    position: absolute;
+  }
+  .bird2{
+    position: absolute;
+  }
+  .bird3{
+    position: absolute;
+  }
+  .bird4{
+    position: absolute;
+  }
+  .bird5{
+    position: absolute;
+  }
+
+
+
+
+
+.sun{
+  position: absolute;
+  left: 450px;
+}
+
+
+
+
+.top-cloud {
+  position: absolute;
+  right: 550px;
+  color: white;
+}
+.top-cloud2{
+  position: absolute;
+  left: 150px;
+}
+.top-cloud3{
+  position: absolute;
+  right: 150px;
+  top: 250px;
+}
+
+
+
+
+.bottom-cloud {
+  position: absolute;
+}
+
+
+.atom{
+  position: relative;
+  left: 80px;
+
+
+}
+.python{
+  position: relative;
+  right: 1000px;
+  bottom: 50px;
+
+}
+.html{
+  position: relative;
+  top: 150px;
+  left: 750px;
+}
