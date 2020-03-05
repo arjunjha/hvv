@@ -1,8 +1,9 @@
 body {
-  margin-top: auto;
+  margin-top: 0;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  margin-bottom: 0;
 }
 
 h1 {
@@ -14,16 +15,26 @@ font-family: 'Sacramento', cursive;
 h2{
   font-family: 'Mansalva', cursive;
   font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 h3{
   font-family: monospace;
   font-size: 28px;
 }
 
+.photo{
+position: fixed;
+  left: 20px;
+  top: 15px;
+}
+
 p {
   text-align: center;
   font-family: 'Grand Hotel', cursive;
   font-size: 35px;
+  margin-bottom: 0;
+  padding-bottom: 25px;
 
 }
 li{
@@ -40,9 +51,13 @@ li{
 .middle-container {
 
 }
+.contact-me{
+    background-color: #a8e6cf;
+    padding-top: 25px;
+}
 
 .bottom-container {
-
+  background-color: #a8e6cf;
 }
 
 
@@ -69,6 +84,14 @@ li{
 .sun{
   position: absolute;
   left: 450px;
+}
+.mount{
+  position: relative;
+  left: 450px;
+}
+.hiker{
+  position: relative;
+  right: 175px;
 }
 
 
@@ -113,4 +136,14 @@ li{
   position: relative;
   top: 150px;
   left: 750px;
+}
+hr{
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #fff;
+  border-style: none;
+  border-top: dotted;
+  border-color: #ededed;
+  border-width: 7px;
+  width: 7%;
 }
